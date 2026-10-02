@@ -1,0 +1,3 @@
+file	count
+seqs2.fasta	3
+seqs.fasta	3
