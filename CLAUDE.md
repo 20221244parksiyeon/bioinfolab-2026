@@ -39,3 +39,13 @@ Runs in GitHub Codespaces with one of four devcontainers under `.devcontainer/` 
 ## Workflow
 
 At the end of each lab the README's routine is `git add . && git commit -m "labNN 완료" && git push` (only commit/push when the user asks).
+
+## My Lab Rules
+
+1. FASTA 파일을 읽을 때는 가능한 한 lab07/src/fasta.py의 read_fasta() 함수를 재사용한다.
+
+2. 새로운 라이브러리를 사용하기 전에 설치 여부를 확인하고, 사용자에게 먼저 허락을 받는다.
+
+3. 사용자 승인 없이 rm, rm -rf 등 파일을 삭제하는 명령어를 실행하지 않는다.
+
+4. 코드를 수정할 때는 기존 파일을 최대한 유지하고, 변경한 이유를 한국어로 설명한다.
