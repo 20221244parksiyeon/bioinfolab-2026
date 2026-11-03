@@ -1,0 +1,8 @@
+file	version	organism	cds_no	location	codon_start	result
+rbcL_arabidopsis.gb	OK432498.1	Arabidopsis thaliana	-	-	-	CDS 없음
+rbcL_fern.gb	MW620303.1	Adiantum capillus-veneris	1	[<0:>1308](+)	1	일치
+rbcL_ginkgo.gb	KF221173.1	Ginkgo biloba	1	[<0:>1317](+)	1	일치
+rbcL_liverwort.gb	LC536762.1	Marchantia polymorpha subsp. ruderalis	1	[<0:1399](+)	2	일치
+rbcL_maize.gb	Z11973.1	Zea mays	1	[0:1431](+)	1	일치
+rbcL_pine.gb	JQ512595.1	Pinus thunbergii	1	[0:1428](+)	1	일치
+rbcL_rice.gb	L24073.1	Oryza sativa	1	[34:1240](+)	1	일치
