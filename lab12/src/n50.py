@@ -34,3 +34,12 @@ print("전체 길이:", sum(lengths))
 print("가장 긴 contig:", max(lengths))
 print("N50:", n50(lengths))
 
+
+# contig 길이를 내림차순으로 정렬하여 저장
+sorted_lengths = sorted(lengths, reverse=True)
+
+with open("doc/contig_lengths.txt", "w") as f:
+    for length in sorted_lengths:
+        f.write(str(length) + "\n")
+
+print("contig 길이 저장 완료")
